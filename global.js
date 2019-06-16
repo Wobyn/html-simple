@@ -1,6 +1,6 @@
 var availableTags = [];
-var azureSearchQueryApiKey = "5D56792F3E60D4E1710894D659AB9BF3";	// this is a query key for demo purposes
-var baseSearchURL = "https://penelopefinds.search.windows.net/indexes/azureblob-index";
+var azureSearchQueryApiKey = "F7C69DB770C13A280301D20FE4586C0D";	// this is a query key for demo purposes
+var baseSearchURL = "https://azs-demos.search.windows.net/indexes/travel-stackexchange";
 
 var facetFiltersString = [];
 var facetFiltersCollection = [];

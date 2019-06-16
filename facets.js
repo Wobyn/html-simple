@@ -1,7 +1,7 @@
 function execMultiSelectFacetQuery(q, facetField, facetDiv, dataType)
 {
 	// Execute a search
-	var searchAPI = baseSearchURL + "/docs?api-version=2017-11-11&queryType=full&facet=" + facetField + "&$top=0&search=" + q;
+	var searchAPI = baseSearchURL + "/docs?api-version=2019-05-06&queryType=full&facet=" + facetField + "&$top=0&search=" + q;
 	
 	// I also need to add all facet filters except the one associated with this field
 	var filterQuery = '';

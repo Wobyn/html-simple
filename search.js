@@ -67,7 +67,7 @@ function execSearch(q)
 		type: "GET",
 		success: function (data) {
 			
-			var htmlString = '';
+			var htmlString = 'initialise';
 			$( "#summaryContainer" ).html('');
 
 
